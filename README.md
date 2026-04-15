@@ -1,50 +1,105 @@
-# Welcome to your Expo app 👋
+# DondeComo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicación móvil para descubrir y encontrar restaurantes utilizando geolocalización, desarrollada en la cursada 2024 de Ingeniería y Calidad de Software (UTN-FRLP).
 
-## Get started
+## Estado de este repositorio
 
-1. Install dependencies
+Este repositorio es un fork con fines de portfolio profesional.
+
+Proyecto original: https://github.com/BenjaminPeres596/Grupo1Agiles2024
+
+## Mi contribución en el proyecto original
+
+Participé como contributor en mejoras funcionales y de calidad, principalmente en:
+
+- Desarrollo de funcionalidades de búsqueda y filtrado
+- Mejora de la experiencia de usuario en la visualización de restaurantes
+- Implementación de autenticación y contextos de datos
+- Optimización de componentes React Native
+- Cobertura de pruebas y refactorización de código
+
+## Evidencia pública de contribuciones
+
+- PRs creados: https://github.com/search?q=repo%3ABenjaminPeres596%2FGrupo1Agiles2024+is%3Apr+author%3AValentinMilocco&type=pullrequests
+- PRs donde participé: https://github.com/search?q=repo%3ABenjaminPeres596%2FGrupo1Agiles2024+is%3Apr+involves%3AValentinMilocco&type=pullrequests
+- Commits en el repo: https://github.com/BenjaminPeres596/Grupo1Agiles2024/commits?author=ValentinMilocco
+
+## Convención de commits
+
+Formato:
+
+```
+[type]: mensaje-commit
+```
+
+Tipos:
+
+- `fix`: corrección de bugs
+- `feat`: nueva funcionalidad
+- `refactor`: refactorización de código
+- `style`: cambios de estilos
+- `docs`: documentación
+
+## Dependencias y ejecución local
+
+### Dependencias principales:
+
+- Node.js 18+
+- Expo CLI
+- React Native
+- TypeScript
+- Google Maps API (para geolocalización)
+
+### Pasos:
+
+1. **Instalar dependencias:**
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. **Instalar Expo CLI globalmente (si no lo tienes):**
 
    ```bash
-    npx expo start
+   npm install -g expo-cli
    ```
 
-In the output, you'll find options to open the app in a
+3. **Iniciar la aplicación:**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   ```bash
+   npx expo start
+   ```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+4. **En el output, encontrarás opciones para abrir en:**
 
-## Get a fresh project
+   - [Development build](https://docs.expo.dev/develop/development-builds/introduction/)
+   - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+   - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+   - [Expo Go](https://expo.dev/go)
 
-When you're ready, run:
+## Estructura del proyecto
 
-```bash
-npm run reset-project
+```
+dondeComo/
+├── app/                  # Rutas principales (file-based routing)
+├── components/           # Componentes reutilizables
+├── context/             # Contextos globales (Auth, Data)
+├── hooks/               # Custom hooks
+├── constants/           # Constantes (colores, etc.)
+├── assets/              # Imágenes y fuentes
+└── android/             # Configuración nativa Android
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Integrantes del proyecto original
 
-## Learn more
+- Peres, Benjamin
+- Peres, Valentin
+- Eguren, Rafael
+- Lezcano, Juan Ignacio
+- Milocco, Valentin
 
-To learn more about developing your project with Expo, look at the following resources:
+## Nota de transparencia
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Este fork no busca reemplazar ni atribuir autoría total del proyecto original.
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Se mantiene como registro de contribución técnica para portfolio.
